@@ -1,14 +1,13 @@
+/*dev*/
 body{
-
+	font-family: "Segoe UI",  sans-serif;
+	background-color: #23232E
 }
 
-/* Layout */
-.ba-container{
-	padding-left: 20px;
-	padding-right: 20px;
-	max-width: 1200px;
-}
+.wrapper{
+	width: 1918px;
 
+}
 /* Typography */
 a,
 input[type="submit"],
@@ -49,5 +48,107 @@ select:focus {
 
 }
 textarea {
+
+}
+.title {
+	font-size: 80px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	/*margin: 0 auto;*/
+	margin: 166px 0 0 552px;
+	padding: 0;
+	display: block;
+	line-height: 100%;
+	text-align: center;
+}
+.header-text{
+	font-size: 18px;
+	line-height: 30px;
+	color: #888a8b;
+	display: block;
+	width: 430px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 400;
+	margin-left: 745px;
+	margin-top: 49px;
+}
+.logo{
+	text-align: center;
+	margin-top: 80px;
+	margin-left: 555px;
+}
+.header{ 
+	height: 740px;
+	width: 100vw;
+	background-color: #23232E;
+	margin: 0;
+}
+section{
+	/*height: 850px;*/
+	/*width: 100vw;*/	
+	
+
+}
+.block{
+	max-width: 857px;
+	margin: 0 auto;
+	font-size: 30px;
+	line-height: 42px;
+	text-align: center;
+	padding-top: 114px; 
+}
+.article{
+	color: #464b4f;
+}
+.article-below{
+	padding-left: 2px;
+	padding-top: 12px;
+	width: 858px;
+}
+.title_below{
+	font-size: 80px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #464b4f;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	margin-top: 127px;
+	margin-left: 743px;
+}
+.main{
+	background-color: #fff;
+	background-image: url(../img/fone.jpeg)  no-repeat;
+}
+.small-img img{
+	display: block;
+	margin: 0 auto;
+}
+.small-img{
+	margin-top: 183px;
+	margin-left: 555px;
+}
+.flex-block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	font-size: 0;
+	width: 935px;
+	margin-top: 80px;
+	margin-left: 555px;
+}
+.flex-item{
+	width: 34%;
+	font-size: 20px;
+	/*padding-left: 10px;*/
+}
+.flex-title{
+	font-size: 18px;
+	line-height: 42px;
+	font-weight: 800;
 
 }
