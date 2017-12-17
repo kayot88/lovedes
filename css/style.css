@@ -5,7 +5,7 @@ body{
 }
 
 .wrapper{
-	width: 1918px;
+	width: 100%;
 
 }
 /* Typography */
@@ -55,8 +55,8 @@ textarea {
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 700;
-	/*margin: 0 auto;*/
-	margin: 166px 0 0 552px;
+	margin: 0 auto;
+	padding-top: 166px;
 	padding: 0;
 	display: block;
 	line-height: 100%;
@@ -71,24 +71,20 @@ textarea {
 	margin: 0 auto;
 	text-align: center;
 	font-weight: 400;
-	margin-left: 745px;
 	margin-top: 49px;
 }
 .logo{
 	text-align: center;
 	margin-top: 80px;
-	margin-left: 555px;
+	/*margin-left: 555px;*/
 }
 .header{ 
 	height: 740px;
-	width: 100vw;
+	width: 100%;
 	background-color: #23232E;
 	margin: 0;
 }
 section{
-	/*height: 850px;*/
-	/*width: 100vw;*/	
-	
 
 }
 .block{
@@ -108,19 +104,20 @@ section{
 	width: 858px;
 }
 .title_below{
+	display: block;
 	font-size: 80px;
 	line-height: 30px;
 	text-transform: uppercase;
 	color: #464b4f;
 	font-weight: 700;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	margin-top: 127px;
-	margin-left: 743px;
+	text-align: center;
 }
 .main{
 	background-color: #fff;
-	background-image: url(../img/fone.jpeg)  no-repeat;
+	background-image: url('../img/fone.jpeg')  no-repeat;
 }
 .small-img img{
 	display: block;
@@ -128,7 +125,6 @@ section{
 }
 .small-img{
 	margin-top: 183px;
-	margin-left: 555px;
 }
 .flex-block{
 	display: -webkit-flex;
@@ -139,12 +135,15 @@ section{
 	font-size: 0;
 	width: 935px;
 	margin-top: 80px;
-	margin-left: 555px;
+	margin: 80px auto;
+
+
 }
 .flex-item{
 	width: 34%;
 	font-size: 20px;
-	/*padding-left: 10px;*/
+	flex-grow: 1px;
+	padding-right: 20px;
 }
 .flex-title{
 	font-size: 18px;
